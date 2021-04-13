@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="zipCode" value="600095"/>
+    <parameter name="address" value="Chennai"/>
+    <parameter name="city" value="Chennai"/>
+    <parameter name="nameOnCard" value="SATHYA V"/>
+    <parameter name="creditCardNumber" value="7894561230321654"/>
+    <parameter name="destination" value="London"/>
+    <parameter name="cardType" value="American Express"/>
+    <parameter name="creditCardMonth" value="August"/>
+    <parameter name="departure" value="Boston"/>
+    <parameter name="state" value="Tamilnadu"/>
+    <parameter name="creditCardYear" value="2022"/>
+    <parameter name="inputName" value="Sathya"/>
+    <classes>
+      <class name="org.test.ExtentReport">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="AfterClass"/>
+          <include name="tc2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.test.ExtentReport -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

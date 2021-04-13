@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="departure" value="Boston"></parameter>
+  <parameter name="destination" value="London"></parameter>
+  <parameter name="inputName" value="Sathya"></parameter>
+  <parameter name="address" value="Chennai"></parameter>
+  <parameter name="city" value="Chennai"></parameter>
+  <parameter name="state" value="Tamilnadu"></parameter>
+  <parameter name="zipCode" value="600095"></parameter>
+  <parameter name="cardType" value="American Express"></parameter>
+  <parameter name="creditCardNumber" value="7894561230321654"></parameter>
+  <parameter name="creditCardMonth" value="August"></parameter>
+  <parameter name="creditCardYear" value="2022"></parameter>
+  <parameter name="nameOnCard" value="SATHYA V"></parameter>
+  <classes>
+  <class name="org.test.ExtentReport"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
